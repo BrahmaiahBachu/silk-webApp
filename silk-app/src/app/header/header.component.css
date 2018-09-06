@@ -1,13 +1,37 @@
 .header-container {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     display: flex;
     justify-content: flex-start;
 }
 
-.ap-logo img:nth-child(1), .ap-logo img:nth-child(2), .department-logo img:nth-child(1),.department-logo img:nth-child(2) {
+.ap-logo img:nth-child(1), .ap-logo img:nth-child(2), .department-logo img:nth-child(1), .department-logo img:nth-child(2) {
     width: 6vw;
     height: 6vw;
     padding-left: 1vw;
     padding-right: 1vw;
+}
+
+.ap-logo {
+    display: flex;
+    flex-direction: row;
+    flex: 1 10%;
+}
+
+.title-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1 100%;
+}
+.title-heading h1{
+    font-size: 2vw;
+}
+
+.department-logo {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0.1;
+    flex: 1 10%;
 }
