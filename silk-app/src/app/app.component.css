@@ -1,5 +1,11 @@
+.header {
+    height: 16vh;
+}
+
 .section {
     border: 1px solid #000000;
+    height: 83vh;
+    overflow: auto;
     padding: 1vw;
     border-radius: 10px;
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
