@@ -1,37 +1,17 @@
-.header-container {
-    width: 100vw;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
+.left-logo img,.right-logo img{
+    width: 8vw;
+    height: 8vw;
+    padding: 1vw;
 }
-
-.ap-logo img:nth-child(1), .ap-logo img:nth-child(2), .department-logo img:nth-child(1), .department-logo img:nth-child(2) {
-    width: 6vw;
-    height: 6vw;
+.left-logo img:nth-child(2),.right-logo img:nth-child(2){
     padding-left: 1vw;
-    padding-right: 1vw;
 }
-
-.ap-logo {
+.title-heading{
     display: flex;
     flex-direction: row;
-    flex: 1 10%;
-}
-
-.title-heading {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    flex: 1 100%;
+    align-items: center;
 }
 .title-heading h1{
     font-size: 2vw;
-}
-
-.department-logo {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 0.1;
-    flex: 1 10%;
 }
